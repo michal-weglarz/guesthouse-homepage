@@ -34,16 +34,38 @@ html, body {
 }
 
 .header { 
-	min-height: 80vh;
-	height: 800px;
-	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ),
-	url('./pexels-photo-280221.jpeg'); 
-	background-size: cover;
-	background-position: bottom;
+    min-height: 80vh;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url('./pexels-photo-280221.jpeg');
+    background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
+}
+.header h1 {
+	font-size: 7rem;
+}
+
+.header p {
+	font-size: 1.5rem;
+}
+
+.header-content {
+    color: white;
+    text-align: center;
+    padding-top: 25vh;
+    padding-bottom: 20vh;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 20px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#header-underline {         
+    width: 65%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.54);
 }
 
 .title {
