@@ -69,5 +69,5 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && lo
 });
 
 $('.carousel').carousel({
-  interval: 1000 * 2
+  interval: 1000 * 4
 });

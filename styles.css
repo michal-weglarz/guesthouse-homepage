@@ -82,7 +82,8 @@ html, body {
 }
 
 .icons {
-	margin-top: 10em;
+	margin-top: 8vh;
+	margin-bottom:8vh;
 	
 }
 
@@ -98,7 +99,7 @@ html, body {
 }
 
 .attractions {
-	margin-top: 10em;
+	font-size: 5vh;
 	background-color: #F6F6F6;
 }
 .attractionsPhoto {
@@ -107,6 +108,7 @@ html, body {
 
 .attractionsDescription {
 	background-color: #F6F6F6;
+	font-size: 0.35em !important;
 	
 }
 .carousel-item img {
@@ -196,8 +198,8 @@ html, body {
 }
 
 .hoverItems {
-	padding-top: 8em;
-	padding-bottom: 10em;
+	padding-top: 12vh !important;
+	padding-bottom: 15vh !important;
 	background-color: #F6F6F6;
 }
 
