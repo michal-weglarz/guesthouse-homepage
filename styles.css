@@ -74,7 +74,7 @@ html, body {
 .content {
 	font-size: 22px;
 	margin-top: 2em;
-	margin-bottom: 6em;
+	margin-bottom: 4em;
 
 }
 
@@ -124,8 +124,8 @@ html, body {
 }
 
 .photoBox .container {
-	padding-top: 6em !important;
-	padding-bottom: 6em !important;
+	padding-top: 7em !important;
+	padding-bottom: 7em !important;
 }
 
 .img-thumbnail {
@@ -189,7 +189,7 @@ html, body {
 
 .hoverItems {
 	padding-top: 12vh !important;
-	padding-bottom: 15vh !important;
+	padding-bottom: 17vh !important;
 	background-color: #F6F6F6;
 }
 
