@@ -183,7 +183,7 @@ html, body {
   color: #ffffff;
 	background-color: #5C5D5D;
   padding-top: 2vw;
-  padding-bottom: 2.5vw;
+  padding-bottom: 2vw;
 	border-top: 1px solid rgba(23, 32, 14, 0.10);
 }
 
@@ -291,4 +291,14 @@ html, body {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+#footer-name{
+	float: left;
+	display:inline-block;
+}
+
+#footer-logos{
+	float: right;
+	display:inline-block;
 }
