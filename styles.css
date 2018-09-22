@@ -112,11 +112,15 @@ html, body {
 	
 }
 .carousel-item img {
-	display: block !important;
+  display: block !important;
+  height: 35vw;
+  width: 100%;
 }
 
 
 .footer {
+  background-color: #5C5D5D !important  ;
+  color: #FFFFFF;
 	height: 12vh;
 	width: 100%;
 }
