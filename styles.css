@@ -8,9 +8,6 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	
-	
-
 }
 
 .navbar a{
@@ -34,11 +31,11 @@ html, body {
 }
 
 .header { 
-    min-height: 80vh;
+    min-height: 90vh;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.45), 
       rgba(0, 0, 0, 0.45)
-    ), url('./pexels-photo-280221.jpeg');
+    ), url('https://images.pexels.com/photos/591383/pexels-photo-591383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -106,6 +103,8 @@ html, body {
 	padding: 0 !important;
 }
 
+
+
 .attractionsDescription {
 	background-color: #F6F6F6;
 	font-size: 0.35em !important;
@@ -113,17 +112,13 @@ html, body {
 }
 .carousel-item img {
   display: block !important;
-  height: 35vw;
   width: 100%;
 }
 
-
-.footer {
-  background-color: #5C5D5D !important  ;
-  color: #FFFFFF;
-	height: 12vh;
-	width: 100%;
+.footer img {
+  height: 30px;
 }
+
 .photoBox {
 	background-color: #F6F6F6;
 }
@@ -185,20 +180,11 @@ html, body {
 }
 
 .footer {
-	height: 6vw;
-	background-color: white;
-	padding-top: 2vw;
+  color: #ffffff;
+	background-color: #5C5D5D;
+  padding-top: 2vw;
+  padding-bottom: 2.5vw;
 	border-top: 1px solid rgba(23, 32, 14, 0.10);
-}
-
-#footer-name{
-	float: left;
-	display:inline-block;
-}
-
-#copyright{
-	float: right;
-	display:inline-block;
 }
 
 .hoverItems {
@@ -295,7 +281,7 @@ html, body {
 
 .map-responsive{
   overflow:hidden;
-  padding-bottom:56.25%;
+  padding-bottom: 70%;
   position:relative;
   height:0;
 }
