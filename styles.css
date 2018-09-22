@@ -294,11 +294,15 @@ html, body {
 }
 
 #footer-name{
-	float: left;
 	display:inline-block;
 }
 
 #footer-logos{
+  margin-top: 1em; 
 	float: right;
 	display:inline-block;
+}
+
+#footer-logos img {
+  height: 50px;
 }
