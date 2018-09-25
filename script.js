@@ -27,7 +27,7 @@ delay: 200
 
 sr.reveal('#iconReveal4', {
   duration: 1000,
-delay: 00
+delay: 300
 });
 
 sr.reveal('.hovereffect', {
