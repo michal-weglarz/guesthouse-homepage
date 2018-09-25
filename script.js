@@ -1,4 +1,5 @@
 window.sr = ScrollReveal({reset : false});
+window.sr = new scrollReveal({ mobile: false })
 sr.reveal('.img-thumbnail', {
   duration: 2000,
   origin:'top',
@@ -10,23 +11,23 @@ sr.reveal('.reviews', {
 });
 
 sr.reveal('#iconReveal1', {
-  duration: 2000,
+  duration: 1000,
 delay: 0
 });
 
 sr.reveal('#iconReveal2', {
-  duration: 2000,
-delay: 200
+  duration: 1000,
+delay: 100
 });
 
 sr.reveal('#iconReveal3', {
-  duration: 2000,
-delay: 400
+  duration: 1000,
+delay: 200
 });
 
 sr.reveal('#iconReveal4', {
-  duration: 2000,
-delay: 600
+  duration: 1000,
+delay: 00
 });
 
 sr.reveal('.hovereffect', {
