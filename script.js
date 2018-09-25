@@ -1,7 +1,8 @@
 window.sr = ScrollReveal({reset : false});
 sr.reveal('.img-thumbnail', {
   duration: 2000,
-  origin:'top'
+  origin:'top',
+  delay: 100
 });
 sr.reveal('.reviews', {
   duration: 2000,
@@ -43,9 +44,15 @@ sr.reveal('.content', {
   distance:'300px',
   viewFactor: 0.2
 });
-sr.reveal('.weather', {
+sr.reveal('#aD-1', {
   duration: 2000,
   origin:'right',
+  distance:'300px',
+  viewFactor: 0.2
+});
+sr.reveal('#aD-2', {
+  duration: 2000,
+  origin:'left',
   distance:'300px',
   viewFactor: 0.2
 });
