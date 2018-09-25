@@ -1,5 +1,5 @@
 window.sr = ScrollReveal({reset : false});
-ScrollReveal().reveal('.squares', { mobile: false });
+window.sr = new ScrollReveal({ mobile: false })
 sr.reveal('.img-thumbnail', {
   duration: 2000,
   origin:'top',
